@@ -1,0 +1,26 @@
+.customers {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+
+  &__logo-container {
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--gray-icon-color);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: var(--gray-icon-color);
+    transition-property: border-color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+      border-color: var(--highlight-color);
+      fill: var(--highlight-color);
+      cursor: pointer;
+    }
+  }
+}

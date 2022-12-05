@@ -1,0 +1,13 @@
+.section {
+  padding: 94px 0px;
+
+  &__haeder {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--dark-text-color);
+    margin-bottom: 50px;
+  }
+}

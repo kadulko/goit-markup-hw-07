@@ -1,0 +1,26 @@
+.banner {
+  max-width: 1600px;
+  height: 600px;
+  padding: 200px 0px;
+  margin: 0 auto;
+  background-image: linear-gradient(
+      var(--dark-background-with-opacity),
+      var(--dark-background-with-opacity)
+    ),
+    url(../images/upper_section_background_image.jpg);
+  background-position: center center;
+
+  background-size: cover;
+
+  &__header {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    color: var(--white-text-color);
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+}
